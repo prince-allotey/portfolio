@@ -8,19 +8,19 @@ const education = [
     degree: "BSc in Computer Science",
     institution: "Lovely Professional University",
     location: "Phagwara, India",
-    period: "2019 – 2022",
+    period: "2018 - 2022"
   },
   {
     degree: "Diploma in Information Technology",
     institution: "Ghana Technology University College",
     location: "Accra, Ghana",
-    period: "2016 – 2018",
+    period: "2016 - 2018"
   },
   {
     degree: "WASSCE",
     institution: "Adiembra Senior High School",
     location: "Ghana",
-    period: "2010 – 2013",
+    period: "2012 - 2016"
   },
 ];
 
@@ -56,8 +56,7 @@ const EducationSection = () => {
                   <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
                     <GraduationCap className="w-6 h-6 text-primary" />
                   </div>
-                  <span className="text-primary font-mono text-sm">{edu.period}</span>
-                  <h3 className="text-xl font-semibold mt-2 mb-2">{edu.degree}</h3>
+                  <h3 className="text-xl font-semibold mb-2">{edu.degree}</h3>
                   <p className="text-muted-foreground mb-2">{edu.institution}</p>
                   <div className="flex items-center gap-1 text-muted-foreground/70 text-sm">
                     <MapPin className="w-3 h-3" />
