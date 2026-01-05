@@ -27,7 +27,7 @@ const ProjectsSection = () => {
           transition={{ duration: 0.6 }}
         >
           <div className="flex items-center gap-4 mb-12">
-            <span className="text-primary font-mono text-sm">06.</span>
+            <span className="text-primary font-mono text-sm">07.</span>
             <h2 className="text-3xl md:text-4xl font-bold">Projects</h2>
             <div className="flex-1 h-px bg-border ml-4" />
           </div>
