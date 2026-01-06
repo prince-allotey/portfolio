@@ -22,13 +22,10 @@ export const Websites = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               { id: 1, title: "Flocare", url: "https://flocare.onrender.com" },
-              { id: 2, title: "Recipe Blog", url: "https://api-recipe-blog.onrender.com" },
-              { id: 3, title: "Indigin", url: "https://indigin-with-react.onrender.com" },
+              { id: 2, title: "Recipe Blog", url: "https://indigin-with-react.onrender.com" },
+              { id: 3, title: "Archsmart", url: "https://archsmart.indiginfoundation.com" },
               { id: 4, title: "Invoice App", url: "https://invoice-app-lbhx.onrender.com" },
-              { id: 5, title: "Banking App", url: "https://banking-app-at7w.onrender.com" },
-              { id: 6, title: "Website 6", url: "#" },
-              { id: 7, title: "Website 7", url: "#" },
-              { id: 8, title: "Contact", url: "mailto:your-email@example.com" },
+              { id: 5, title: "Banking App", url: "https://banking-app-at7w.onrender.com" },              
             ].map((item) => (
               <a
                 key={item.id}

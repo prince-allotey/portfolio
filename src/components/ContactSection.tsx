@@ -17,7 +17,7 @@ const ContactSection = () => {
           transition={{ duration: 0.6 }}
           className="max-w-3xl mx-auto text-center"
         >
-          <span className="text-primary font-mono text-sm">07. What's Next?</span>
+          <span className="text-primary font-mono text-sm">08. What's Next?</span>
           <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6">Get In Touch</h2>
           <p className="text-muted-foreground text-lg mb-12 max-w-xl mx-auto">
             I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!
